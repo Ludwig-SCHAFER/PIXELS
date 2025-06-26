@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Marché aux connaissances - Vendredi 27 Juin 2025 - CM2</title>
+		<link rel="stylesheet" media="screen, print" href="./reset.css" />
+		<link rel="stylesheet" media="screen, print" href="./style.css" />
+	</head>
+	<body>
+<datalist id="markers-off">
+  <option value="0"></option>
+  <option value="64"></option>
+  <option value="128"></option>
+  <option value="192"></option>
+  <option value="255"></option>
+</datalist>
+		<div id="step-01" class="">
+			<div class="control"></div>
+			<div class="content">
+				<div class="color_container">
+					<input type="range" id="r_01" name="red" min="0" max="255" value="0" list="markers" />
+					<br />
+					<label for="red" id="r_01_val">0</label>
+				</div>
+				<div class="color_container">
+					<input type="range" id="g_01" name="green" min="0" max="255" value="0" list="markers" />
+					<br />
+					<label for="green" id="g_01_val">0</label>
+				</div>
+				<div class="color_container">
+					<input type="range" id="b_01" name="blue" min="0" max="255" value="0" list="markers" />
+					<br />
+					<label for="blue" id="b_01_val">0</label>
+				</div>
+			</div>
+		</div>
+		<div id="step-02" class="">
+			<div class="content">
+				<div class="color_container">
+					<input type="range" id="r_02" name="red" min="0" max="255" value="0" list="markers" />
+					<br />
+					<label for="red" id="r_02_val">0</label>
+				</div>
+				<div class="color_container">
+					<input type="range" id="g_02" name="green" min="0" max="255" value="0" list="markers" />
+					<br />
+					<label for="green" id="g_02_val">0</label>
+				</div>
+				<div class="color_container">
+					<input type="range" id="b_02" name="blue" min="0" max="255" value="0" list="markers" />
+					<br />
+					<label for="blue" id="b_02_val">0</label>
+				</div>
+				<div class="color_container">
+					<input type="range" id="a_02" name="alpha" min="0" max="100" value="0" list="markers" />
+					<br />
+					<label for="blue" id="a_02_val">0</label>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scriptAlpha.js"></script>
+	</body>
+</html>

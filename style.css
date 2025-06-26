@@ -35,13 +35,13 @@ input[type=range]::-moz-range-thumb {
 }
 
 
-#r_01{
+#r_01,#r_02{
 	background: #FF0000;
 }
-#g_01{
+#g_01,#g_02{
 	background: #00FF00;
 }
-#b_01{
+#b_01,#b_02{
 	background: #0000FF;
 }
 
@@ -56,4 +56,8 @@ input[type=range]::-moz-range-thumb {
 	border:5px #555555 solid;
 	border-radius:15px;
 	width : 200px
+}
+
+#step-02{
+	margin-top:100px;
 }
