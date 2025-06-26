@@ -15,7 +15,7 @@ input[type="range"]
   /*width: 100%;*/
 }
 input[type=range]:focus{
-	background: #ff00ff;
+	background: #ffffff;
 }
 	
 input[type=range]::-moz-range-track {
